@@ -1,5 +1,5 @@
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+root.render(<App />)
 
 function Counter({ item: { id, number }, hdlUpdate, hdlRemove }) {
   return (
